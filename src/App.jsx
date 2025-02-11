@@ -1,26 +1,14 @@
-import { Button } from '@mui/material';
+import Navbar from './components/Navbar';
+import Feed from './components/Feed';
+import Rightbar from './components/Rightbar';
+import Sidebar from './components/Sidebar';
 
 function App() {
     return (
         <div>
-            <h1>Hello, Material UI!</h1>
-            <Button variant="contained" color="primary">
-                Primary Button
-            </Button>
-
-            <Button variant="contained" color="secondary">
-                Secondary Button
-            </Button>
-
-            {/* <Button variant="contained">Click Me</Button> */}
-            {/* <Button
-                variant="contained"
-                color="secondary"
-                size="large"
-                onClick={() => alert('Button Clicked!')}
-            >
-                Click Me
-            </Button> */}
+            <Sidebar />
+            <Feed />
+            <Rightbar />
         </div>
     );
 }
