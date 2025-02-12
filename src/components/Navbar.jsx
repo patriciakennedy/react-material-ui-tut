@@ -1,9 +1,8 @@
-import React from 'react'
+import { Box } from '@mui/material';
+import React from 'react';
 
 function Navbar() {
-  return (
-    <div>Navbar</div>
-  )
+    return <Box bgcolor="skyblue">Sidebar</Box>;
 }
 
-export default Navbar
+export default Navbar;

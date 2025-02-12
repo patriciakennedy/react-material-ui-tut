@@ -1,9 +1,8 @@
-import React from 'react'
+import { Box } from '@mui/material';
+import React from 'react';
 
 function Sidebar() {
-  return (
-    <div>Sidebar</div>
-  )
+    return <Box bgcolor="skyblue" flex={1}>Sidebar</Box>;
 }
 
-export default Sidebar
+export default Sidebar;
