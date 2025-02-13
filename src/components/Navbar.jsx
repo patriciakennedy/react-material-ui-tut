@@ -1,3 +1,4 @@
+
 import { AppBar, styled, Toolbar, Typography } from '@mui/material';
 import CodeIcon from '@mui/icons-material/Code';
 import React from 'react';
@@ -7,6 +8,7 @@ const StyledToolbar = styled(Toolbar)({
     justifyContent: 'space-between',
 });
 
+
 const Navbar = () => {
     return (
         <AppBar position="sticky">
@@ -15,7 +17,7 @@ const Navbar = () => {
                     variant="h6"
                     sx={{ display: { xs: 'none', sm: 'block' } }}
                 >
-                    CodeChick
+                    CODEPLUS
                 </Typography>
                 <CodeIcon sx={{ display: { xs: 'none', sm: 'block' } }} />
             </StyledToolbar>
