@@ -2,8 +2,8 @@ import Navbar from './components/Navbar';
 import Feed from './components/Feed';
 import Rightbar from './components/Rightbar';
 import Sidebar from './components/Sidebar';
-import { Box, Button, Stack } from '@mui/material';
-import Typebuttons from './components/Sidebar';
+import { Box, Stack } from '@mui/material';
+import Testbtn from './components/Testbtn';
 
 function App() {
     return (
@@ -21,7 +21,7 @@ function App() {
                     <Rightbar />
                 </Stack>
             </Box>
-        
+            <Testbtn />
         </div>
     );
 }

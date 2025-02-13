@@ -2,7 +2,7 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import React from 'react';
 
-export const Buttons = () => {
+export const Testbtn = () => {
     return (
         <Stack spacing={2} direction="row">
             <Button variant="text">Text</Button>
