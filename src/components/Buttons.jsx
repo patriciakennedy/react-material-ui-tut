@@ -1,12 +1,13 @@
-import { Button } from '@mui/material';
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
 import React from 'react';
 
 export const Buttons = () => {
     return (
-        <div>
-            <div>buttons</div>
-            <h2>Greetings</h2>
+        <Stack spacing={2} direction="row">
+            <Button variant="text">Text</Button>
             <Button variant="contained">Contained</Button>
-        </div>
+            <Button variant="outlined">Outlined</Button>
+        </Stack>
     );
 };
